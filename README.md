@@ -1,6 +1,6 @@
 # Portfolio
 
-### Projetos desenvolvidos na [Imersão Dev 2022](https://imersao.dev/) pela alura
+### Projetos desenvolvidos na [Imersão Dev 2022](https://imersao.dev/) pela alura - 05/09/2022 a 19/09/2022
 
 * Aula 01: 
 * Aula 02: 
