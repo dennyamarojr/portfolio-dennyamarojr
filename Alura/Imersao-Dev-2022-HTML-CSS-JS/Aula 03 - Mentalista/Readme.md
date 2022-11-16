@@ -1,0 +1,2 @@
+### Nesta aula vimos como criar um jogo, aonde você tem que adivinhar qual é o número. Inicialmente, é de 1 a 10, mas eu acabei ampliando este número para 1 a 100.
+* Demonstração do Projeto da aula 03: [Mentalista](https://codepen.io/dennyamarojr/full/ZEovBxd)

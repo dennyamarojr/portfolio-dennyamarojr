@@ -1,4 +1,4 @@
-# Portfolio
+# Imersão Dev Alura 2022 (HTML,CSS e JavaScript)
 
 ### Projetos desenvolvidos na [Imersão Dev 2022](https://imersao.dev/) pela alura - 05/09/2022 a 19/09/2022
 

@@ -1,0 +1,2 @@
+### Nesta aula vimos como criar algumas funções adicionais ao aluraflix, e como podemos inserir a url da imagem e colocar o nome do filme.
+* Demonstração do Projeto da aula 04: [Array, lista e AluraFlix](https://codepen.io/dennyamarojr/full/NWMxmoB)

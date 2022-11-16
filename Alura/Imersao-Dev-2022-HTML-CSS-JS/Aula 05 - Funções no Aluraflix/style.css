@@ -1,0 +1,165 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+  font-size: 62.5%;
+
+  --primary-color: #db0000;
+
+  --primary-hover-color: #a10303;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+
+  min-height: 100vh;
+
+  padding-block: 4rem 8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: url('https://mearasescoladexadrez.com/wp-content/uploads/2017/11/black-abstract-wallpapers-high-resolution-As-Wallpaper-HD.jpg');
+  background-size: cover;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 4.8rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.error {
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 5rem;
+}
+
+.add-movie-field {
+  display: flex;
+  flex-direction: column;
+
+  width: 25rem;
+
+  padding: 3rem 3rem 3rem;
+
+  background: rgba(0, 0, 0, 0.8);
+
+  box-shadow: 3px 3px 20px black;
+}
+
+.add-movie-field input + input {
+  margin-top: 2.5rem;
+}
+
+.add-movie-field input {
+  background: transparent;
+
+  border: none;
+  border-bottom: 1px solid gray;
+
+  outline: none;
+
+  color: white;
+
+  padding: 0.2rem;
+
+  transition: 0.4s;
+}
+
+.add-movie-field input:focus {
+  border-bottom: 1px solid white;
+}
+
+.error-and-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  text-align: center;
+
+  font-size: 1.4rem;
+
+  margin-top: 1.5rem;
+}
+
+.add-movie-field button {
+  height: 4.4rem;
+  width: 10rem;
+
+  cursor: pointer;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  color: white;
+
+  background-color: var(--primary-color);
+
+  border: none;
+
+  transition: 0.3s;
+}
+
+.add-movie-field button:hover {
+  background: var(--primary-hover-color);
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+.card {
+  position: relative;
+  z-index: 11;
+
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: transform 0.4s;
+}
+
+.card img {
+  width: 19rem;
+  height: 26rem;
+
+  border: 3px solid transparent;
+
+  transition: filter 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card:hover img {
+  border: 3px solid white;
+}
+
+.card span {
+  color: white;
+  text-align: center;
+}
+
+.blur {
+  filter: blur(0.15rem);
+}
